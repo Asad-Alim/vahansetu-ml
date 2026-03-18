@@ -1,0 +1,153 @@
+{
+  "instance_id": "INST0012_N3_N12",
+  "source_dataset": "NORTH",
+  "num_orders": 3,
+  "vehicle": {
+    "vehicle_type": "tempo",
+    "capacity_weight_kg": 1000,
+    "capacity_volume_m3": 6,
+    "fuel_type": "petrol",
+    "mileage": 13.7,
+    "fuel_price_per_unit": 106.59,
+    "carbon_per_km": 0.161,
+    "vehicle_id": "INST0012_N3_N12_truck",
+    "current_location": {
+      "node_id": "depot",
+      "lat": 28.6483,
+      "lon": 77.4083,
+      "district": "Noida Sector 18, UP"
+    },
+    "route_start_time": "08:00"
+  },
+  "orders": [
+    {
+      "order_id": "INST0012_N3_N12_ORD000",
+      "weight_kg": 123.65,
+      "volume_m3": 1.84,
+      "pickup_node": {
+        "node_id": "INST0012_N3_N12_P000",
+        "node_type": "pickup",
+        "lat": 28.4944,
+        "lon": 77.0894,
+        "district": "Cyber City, Gurgaon",
+        "time_window": {
+          "open": "08:13",
+          "close": "13:18",
+          "open_min": 13.51,
+          "close_min": 318.09
+        },
+        "packaging_time_min": 2.4,
+        "loading_time_min": 8.5,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 10.9
+      },
+      "delivery_node": {
+        "node_id": "INST0012_N3_N12_D000",
+        "node_type": "delivery",
+        "lat": 28.6483,
+        "lon": 77.4083,
+        "district": "Noida Sector 18, UP",
+        "time_window": {
+          "open": "09:07",
+          "close": "14:12",
+          "open_min": 67.92,
+          "close_min": 372.5
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 5.97,
+        "total_service_time_min": 5.97
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0012_N3_N12_ORD001",
+      "weight_kg": 120.67,
+      "volume_m3": 1.28,
+      "pickup_node": {
+        "node_id": "INST0012_N3_N12_P001",
+        "node_type": "pickup",
+        "lat": 28.9845,
+        "lon": 77.7064,
+        "district": "Meerut Cantonment, UP",
+        "time_window": {
+          "open": "08:27",
+          "close": "17:40",
+          "open_min": 27.97,
+          "close_min": 580.4
+        },
+        "packaging_time_min": 3.9,
+        "loading_time_min": 4.76,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 8.66
+      },
+      "delivery_node": {
+        "node_id": "INST0012_N3_N12_D001",
+        "node_type": "delivery",
+        "lat": 28.571,
+        "lon": 77.243,
+        "district": "Lajpat Nagar, Delhi",
+        "time_window": {
+          "open": "09:55",
+          "close": "19:07",
+          "open_min": 115.55,
+          "close_min": 667.97
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 4.55,
+        "total_service_time_min": 4.55
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0012_N3_N12_ORD002",
+      "weight_kg": 355.7,
+      "volume_m3": 1.24,
+      "pickup_node": {
+        "node_id": "INST0012_N3_N12_P002",
+        "node_type": "pickup",
+        "lat": 28.571,
+        "lon": 77.243,
+        "district": "Lajpat Nagar, Delhi",
+        "time_window": {
+          "open": "08:00",
+          "close": "11:00",
+          "open_min": 0.0,
+          "close_min": 180.0
+        },
+        "packaging_time_min": 2.64,
+        "loading_time_min": 6.23,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 8.87
+      },
+      "delivery_node": {
+        "node_id": "INST0012_N3_N12_D002",
+        "node_type": "delivery",
+        "lat": 28.7022,
+        "lon": 77.131,
+        "district": "Pitampura, Delhi",
+        "time_window": {
+          "open": "08:23",
+          "close": "11:23",
+          "open_min": 23.58,
+          "close_min": 203.58
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 3.29,
+        "total_service_time_min": 3.29
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "instance_id": "INST0002_N3_S02",
+  "source_dataset": "SOUTH",
+  "num_orders": 3,
+  "vehicle": {
+    "vehicle_type": "medium_truck",
+    "capacity_weight_kg": 6000,
+    "capacity_volume_m3": 28,
+    "fuel_type": "diesel",
+    "mileage": 6.88,
+    "fuel_price_per_unit": 88.91,
+    "carbon_per_km": 0.242,
+    "vehicle_id": "INST0002_N3_S02_truck",
+    "current_location": {
+      "node_id": "depot",
+      "lat": 12.8399,
+      "lon": 77.677,
+      "district": "Electronic City, BLR"
+    },
+    "route_start_time": "08:00"
+  },
+  "orders": [
+    {
+      "order_id": "INST0002_N3_S02_ORD000",
+      "weight_kg": 321.31,
+      "volume_m3": 5.32,
+      "pickup_node": {
+        "node_id": "INST0002_N3_S02_P000",
+        "node_type": "pickup",
+        "lat": 13.0118,
+        "lon": 77.6358,
+        "district": "Koramangala, Bengaluru",
+        "time_window": {
+          "open": "08:00",
+          "close": "13:12",
+          "open_min": 0.0,
+          "close_min": 312.51
+        },
+        "packaging_time_min": 4.36,
+        "loading_time_min": 7.32,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 11.68
+      },
+      "delivery_node": {
+        "node_id": "INST0002_N3_S02_D000",
+        "node_type": "delivery",
+        "lat": 12.7409,
+        "lon": 77.8253,
+        "district": "Hosur, Tamil Nadu",
+        "time_window": {
+          "open": "08:50",
+          "close": "14:02",
+          "open_min": 50.36,
+          "close_min": 362.87
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 3.77,
+        "total_service_time_min": 3.77
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0002_N3_S02_ORD001",
+      "weight_kg": 631.21,
+      "volume_m3": 9.88,
+      "pickup_node": {
+        "node_id": "INST0002_N3_S02_P001",
+        "node_type": "pickup",
+        "lat": 12.7409,
+        "lon": 77.8253,
+        "district": "Hosur, Tamil Nadu",
+        "time_window": {
+          "open": "08:00",
+          "close": "13:57",
+          "open_min": 0.0,
+          "close_min": 357.95
+        },
+        "packaging_time_min": 5.67,
+        "loading_time_min": 8.95,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 14.62
+      },
+      "delivery_node": {
+        "node_id": "INST0002_N3_S02_D001",
+        "node_type": "delivery",
+        "lat": 13.0435,
+        "lon": 77.5971,
+        "district": "Hebbal, Bengaluru",
+        "time_window": {
+          "open": "08:59",
+          "close": "14:57",
+          "open_min": 59.62,
+          "close_min": 417.57
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 5.57,
+        "total_service_time_min": 5.57
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0002_N3_S02_ORD002",
+      "weight_kg": 3838.75,
+      "volume_m3": 4.77,
+      "pickup_node": {
+        "node_id": "INST0002_N3_S02_P002",
+        "node_type": "pickup",
+        "lat": 12.8399,
+        "lon": 77.677,
+        "district": "Electronic City, BLR",
+        "time_window": {
+          "open": "08:00",
+          "close": "11:38",
+          "open_min": 0.0,
+          "close_min": 218.04
+        },
+        "packaging_time_min": 3.23,
+        "loading_time_min": 4.15,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 7.38
+      },
+      "delivery_node": {
+        "node_id": "INST0002_N3_S02_D002",
+        "node_type": "delivery",
+        "lat": 13.0228,
+        "lon": 77.536,
+        "district": "Yeshwanthpur, BLR",
+        "time_window": {
+          "open": "08:08",
+          "close": "11:46",
+          "open_min": 8.53,
+          "close_min": 226.57
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 7.49,
+        "total_service_time_min": 7.49
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    }
+  ]
+}

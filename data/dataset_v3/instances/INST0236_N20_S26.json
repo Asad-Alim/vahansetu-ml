@@ -1,0 +1,884 @@
+{
+  "instance_id": "INST0236_N20_S26",
+  "source_dataset": "SOUTH",
+  "num_orders": 20,
+  "vehicle": {
+    "vehicle_type": "pickup_truck",
+    "capacity_weight_kg": 2500,
+    "capacity_volume_m3": 12,
+    "fuel_type": "diesel",
+    "mileage": 11.71,
+    "fuel_price_per_unit": 97.71,
+    "carbon_per_km": 0.193,
+    "vehicle_id": "INST0236_N20_S26_truck",
+    "current_location": {
+      "node_id": "depot",
+      "lat": 12.9653,
+      "lon": 77.8282,
+      "district": "Whitefield, Bengaluru"
+    },
+    "route_start_time": "08:00"
+  },
+  "orders": [
+    {
+      "order_id": "INST0236_N20_S26_ORD000",
+      "weight_kg": 34.33,
+      "volume_m3": 0.38,
+      "pickup_node": {
+        "node_id": "INST0236_N20_S26_P000",
+        "node_type": "pickup",
+        "lat": 12.7161,
+        "lon": 77.2819,
+        "district": "Ramanagara, Karnataka",
+        "time_window": {
+          "open": "08:50",
+          "close": "19:06",
+          "open_min": 50.07,
+          "close_min": 666.05
+        },
+        "packaging_time_min": 2.67,
+        "loading_time_min": 7.95,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 10.62
+      },
+      "delivery_node": {
+        "node_id": "INST0236_N20_S26_D000",
+        "node_type": "delivery",
+        "lat": 13.3379,
+        "lon": 77.101,
+        "district": "Tumkur, Karnataka",
+        "time_window": {
+          "open": "10:28",
+          "close": "20:44",
+          "open_min": 148.68,
+          "close_min": 764.67
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 3.41,
+        "total_service_time_min": 3.41
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0236_N20_S26_ORD001",
+      "weight_kg": 174.73,
+      "volume_m3": 0.31,
+      "pickup_node": {
+        "node_id": "INST0236_N20_S26_P001",
+        "node_type": "pickup",
+        "lat": 13.1361,
+        "lon": 78.129,
+        "district": "Kolar, Karnataka",
+        "time_window": {
+          "open": "08:16",
+          "close": "00:29",
+          "open_min": 16.18,
+          "close_min": 989.13
+        },
+        "packaging_time_min": 3.6,
+        "loading_time_min": 6.5,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 10.1
+      },
+      "delivery_node": {
+        "node_id": "INST0236_N20_S26_D001",
+        "node_type": "delivery",
+        "lat": 13.3379,
+        "lon": 77.101,
+        "district": "Tumkur, Karnataka",
+        "time_window": {
+          "open": "10:45",
+          "close": "02:58",
+          "open_min": 165.27,
+          "close_min": 1138.23
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 7.66,
+        "total_service_time_min": 7.66
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0236_N20_S26_ORD002",
+      "weight_kg": 65.7,
+      "volume_m3": 0.75,
+      "pickup_node": {
+        "node_id": "INST0236_N20_S26_P002",
+        "node_type": "pickup",
+        "lat": 13.1361,
+        "lon": 78.129,
+        "district": "Kolar, Karnataka",
+        "time_window": {
+          "open": "08:16",
+          "close": "17:37",
+          "open_min": 16.18,
+          "close_min": 577.2
+        },
+        "packaging_time_min": 5.07,
+        "loading_time_min": 4.57,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 9.64
+      },
+      "delivery_node": {
+        "node_id": "INST0236_N20_S26_D002",
+        "node_type": "delivery",
+        "lat": 13.0228,
+        "lon": 77.536,
+        "district": "Yeshwanthpur, BLR",
+        "time_window": {
+          "open": "09:45",
+          "close": "19:06",
+          "open_min": 105.97,
+          "close_min": 666.98
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 3.72,
+        "total_service_time_min": 3.72
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0236_N20_S26_ORD003",
+      "weight_kg": 47.14,
+      "volume_m3": 0.19,
+      "pickup_node": {
+        "node_id": "INST0236_N20_S26_P003",
+        "node_type": "pickup",
+        "lat": 13.0118,
+        "lon": 77.6358,
+        "district": "Koramangala, Bengaluru",
+        "time_window": {
+          "open": "08:00",
+          "close": "21:51",
+          "open_min": 0.0,
+          "close_min": 831.95
+        },
+        "packaging_time_min": 4.37,
+        "loading_time_min": 7.93,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 12.3
+      },
+      "delivery_node": {
+        "node_id": "INST0236_N20_S26_D003",
+        "node_type": "delivery",
+        "lat": 12.5218,
+        "lon": 76.8951,
+        "district": "Mandya, Karnataka",
+        "time_window": {
+          "open": "10:07",
+          "close": "23:59",
+          "open_min": 127.45,
+          "close_min": 959.4
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 6.45,
+        "total_service_time_min": 6.45
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0236_N20_S26_ORD004",
+      "weight_kg": 26.86,
+      "volume_m3": 0.7,
+      "pickup_node": {
+        "node_id": "INST0236_N20_S26_P004",
+        "node_type": "pickup",
+        "lat": 12.6522,
+        "lon": 77.2061,
+        "district": "Channapatna, Karnataka",
+        "time_window": {
+          "open": "09:02",
+          "close": "20:03",
+          "open_min": 62.95,
+          "close_min": 723.74
+        },
+        "packaging_time_min": 2.3,
+        "loading_time_min": 8.79,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 11.09
+      },
+      "delivery_node": {
+        "node_id": "INST0236_N20_S26_D004",
+        "node_type": "delivery",
+        "lat": 13.3379,
+        "lon": 77.101,
+        "district": "Tumkur, Karnataka",
+        "time_window": {
+          "open": "10:48",
+          "close": "21:49",
+          "open_min": 168.44,
+          "close_min": 829.23
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 5.05,
+        "total_service_time_min": 5.05
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0236_N20_S26_ORD005",
+      "weight_kg": 123.77,
+      "volume_m3": 0.22,
+      "pickup_node": {
+        "node_id": "INST0236_N20_S26_P005",
+        "node_type": "pickup",
+        "lat": 12.7161,
+        "lon": 77.2819,
+        "district": "Ramanagara, Karnataka",
+        "time_window": {
+          "open": "08:50",
+          "close": "15:58",
+          "open_min": 50.07,
+          "close_min": 478.01
+        },
+        "packaging_time_min": 2.35,
+        "loading_time_min": 7.75,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 10.1
+      },
+      "delivery_node": {
+        "node_id": "INST0236_N20_S26_D005",
+        "node_type": "delivery",
+        "lat": 13.0435,
+        "lon": 77.5971,
+        "district": "Hebbal, Bengaluru",
+        "time_window": {
+          "open": "10:01",
+          "close": "17:09",
+          "open_min": 121.3,
+          "close_min": 549.25
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 6.99,
+        "total_service_time_min": 6.99
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0236_N20_S26_ORD006",
+      "weight_kg": 30.0,
+      "volume_m3": 0.45,
+      "pickup_node": {
+        "node_id": "INST0236_N20_S26_P006",
+        "node_type": "pickup",
+        "lat": 12.7409,
+        "lon": 77.8253,
+        "district": "Hosur, Tamil Nadu",
+        "time_window": {
+          "open": "08:00",
+          "close": "13:58",
+          "open_min": 0.56,
+          "close_min": 358.51
+        },
+        "packaging_time_min": 5.4,
+        "loading_time_min": 9.51,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 14.91
+      },
+      "delivery_node": {
+        "node_id": "INST0236_N20_S26_D006",
+        "node_type": "delivery",
+        "lat": 13.0435,
+        "lon": 77.5971,
+        "district": "Hebbal, Bengaluru",
+        "time_window": {
+          "open": "09:06",
+          "close": "15:04",
+          "open_min": 66.6,
+          "close_min": 424.55
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 5.82,
+        "total_service_time_min": 5.82
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0236_N20_S26_ORD007",
+      "weight_kg": 67.05,
+      "volume_m3": 0.49,
+      "pickup_node": {
+        "node_id": "INST0236_N20_S26_P007",
+        "node_type": "pickup",
+        "lat": 12.9653,
+        "lon": 77.8282,
+        "district": "Whitefield, Bengaluru",
+        "time_window": {
+          "open": "08:00",
+          "close": "20:42",
+          "open_min": 0.0,
+          "close_min": 762.64
+        },
+        "packaging_time_min": 4.42,
+        "loading_time_min": 8.38,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 12.8
+      },
+      "delivery_node": {
+        "node_id": "INST0236_N20_S26_D007",
+        "node_type": "delivery",
+        "lat": 13.3379,
+        "lon": 77.101,
+        "district": "Tumkur, Karnataka",
+        "time_window": {
+          "open": "09:31",
+          "close": "22:14",
+          "open_min": 91.75,
+          "close_min": 854.39
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 5.13,
+        "total_service_time_min": 5.13
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0236_N20_S26_ORD008",
+      "weight_kg": 29.4,
+      "volume_m3": 1.2,
+      "pickup_node": {
+        "node_id": "INST0236_N20_S26_P008",
+        "node_type": "pickup",
+        "lat": 12.8399,
+        "lon": 77.677,
+        "district": "Electronic City, BLR",
+        "time_window": {
+          "open": "08:00",
+          "close": "11:04",
+          "open_min": 0.0,
+          "close_min": 184.44
+        },
+        "packaging_time_min": 3.84,
+        "loading_time_min": 5.39,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 9.23
+      },
+      "delivery_node": {
+        "node_id": "INST0236_N20_S26_D008",
+        "node_type": "delivery",
+        "lat": 12.9653,
+        "lon": 77.8282,
+        "district": "Whitefield, Bengaluru",
+        "time_window": {
+          "open": "08:31",
+          "close": "11:36",
+          "open_min": 31.93,
+          "close_min": 216.36
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 5.15,
+        "total_service_time_min": 5.15
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0236_N20_S26_ORD009",
+      "weight_kg": 57.64,
+      "volume_m3": 0.53,
+      "pickup_node": {
+        "node_id": "INST0236_N20_S26_P009",
+        "node_type": "pickup",
+        "lat": 13.0118,
+        "lon": 77.6358,
+        "district": "Koramangala, Bengaluru",
+        "time_window": {
+          "open": "08:00",
+          "close": "13:12",
+          "open_min": 0.0,
+          "close_min": 312.51
+        },
+        "packaging_time_min": 2.17,
+        "loading_time_min": 5.43,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 7.6
+      },
+      "delivery_node": {
+        "node_id": "INST0236_N20_S26_D009",
+        "node_type": "delivery",
+        "lat": 12.7409,
+        "lon": 77.8253,
+        "district": "Hosur, Tamil Nadu",
+        "time_window": {
+          "open": "08:48",
+          "close": "14:01",
+          "open_min": 48.54,
+          "close_min": 361.06
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 6.54,
+        "total_service_time_min": 6.54
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0236_N20_S26_ORD010",
+      "weight_kg": 212.82,
+      "volume_m3": 0.3,
+      "pickup_node": {
+        "node_id": "INST0236_N20_S26_P010",
+        "node_type": "pickup",
+        "lat": 12.6522,
+        "lon": 77.2061,
+        "district": "Channapatna, Karnataka",
+        "time_window": {
+          "open": "09:02",
+          "close": "18:59",
+          "open_min": 62.95,
+          "close_min": 659.42
+        },
+        "packaging_time_min": 3.52,
+        "loading_time_min": 4.04,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 7.56
+      },
+      "delivery_node": {
+        "node_id": "INST0236_N20_S26_D010",
+        "node_type": "delivery",
+        "lat": 12.3108,
+        "lon": 76.6689,
+        "district": "Saraswathipuram, Mysuru",
+        "time_window": {
+          "open": "10:35",
+          "close": "20:32",
+          "open_min": 155.72,
+          "close_min": 752.19
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 3.71,
+        "total_service_time_min": 3.71
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0236_N20_S26_ORD011",
+      "weight_kg": 54.35,
+      "volume_m3": 0.26,
+      "pickup_node": {
+        "node_id": "INST0236_N20_S26_P011",
+        "node_type": "pickup",
+        "lat": 12.6522,
+        "lon": 77.2061,
+        "district": "Channapatna, Karnataka",
+        "time_window": {
+          "open": "09:02",
+          "close": "18:59",
+          "open_min": 62.95,
+          "close_min": 659.42
+        },
+        "packaging_time_min": 4.1,
+        "loading_time_min": 6.2,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 10.3
+      },
+      "delivery_node": {
+        "node_id": "INST0236_N20_S26_D011",
+        "node_type": "delivery",
+        "lat": 12.3108,
+        "lon": 76.6689,
+        "district": "Saraswathipuram, Mysuru",
+        "time_window": {
+          "open": "10:38",
+          "close": "20:34",
+          "open_min": 158.46,
+          "close_min": 754.93
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 3.18,
+        "total_service_time_min": 3.18
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0236_N20_S26_ORD012",
+      "weight_kg": 92.57,
+      "volume_m3": 0.47,
+      "pickup_node": {
+        "node_id": "INST0236_N20_S26_P012",
+        "node_type": "pickup",
+        "lat": 13.1361,
+        "lon": 78.129,
+        "district": "Kolar, Karnataka",
+        "time_window": {
+          "open": "08:16",
+          "close": "22:59",
+          "open_min": 16.18,
+          "close_min": 899.06
+        },
+        "packaging_time_min": 4.03,
+        "loading_time_min": 4.78,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 8.81
+      },
+      "delivery_node": {
+        "node_id": "INST0236_N20_S26_D012",
+        "node_type": "delivery",
+        "lat": 12.7161,
+        "lon": 77.2819,
+        "district": "Ramanagara, Karnataka",
+        "time_window": {
+          "open": "10:31",
+          "close": "01:13",
+          "open_min": 151.12,
+          "close_min": 1033.99
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 3.27,
+        "total_service_time_min": 3.27
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0236_N20_S26_ORD013",
+      "weight_kg": 36.12,
+      "volume_m3": 0.33,
+      "pickup_node": {
+        "node_id": "INST0236_N20_S26_P013",
+        "node_type": "pickup",
+        "lat": 13.0435,
+        "lon": 77.5971,
+        "district": "Hebbal, Bengaluru",
+        "time_window": {
+          "open": "08:02",
+          "close": "21:42",
+          "open_min": 2.46,
+          "close_min": 822.81
+        },
+        "packaging_time_min": 2.57,
+        "loading_time_min": 9.52,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 12.09
+      },
+      "delivery_node": {
+        "node_id": "INST0236_N20_S26_D013",
+        "node_type": "delivery",
+        "lat": 12.5218,
+        "lon": 76.8951,
+        "district": "Mandya, Karnataka",
+        "time_window": {
+          "open": "10:11",
+          "close": "23:52",
+          "open_min": 131.74,
+          "close_min": 952.09
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 7.7,
+        "total_service_time_min": 7.7
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0236_N20_S26_ORD014",
+      "weight_kg": 29.26,
+      "volume_m3": 0.41,
+      "pickup_node": {
+        "node_id": "INST0236_N20_S26_P014",
+        "node_type": "pickup",
+        "lat": 12.6522,
+        "lon": 77.2061,
+        "district": "Channapatna, Karnataka",
+        "time_window": {
+          "open": "09:02",
+          "close": "16:55",
+          "open_min": 62.95,
+          "close_min": 535.85
+        },
+        "packaging_time_min": 5.55,
+        "loading_time_min": 8.04,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 13.59
+      },
+      "delivery_node": {
+        "node_id": "INST0236_N20_S26_D014",
+        "node_type": "delivery",
+        "lat": 12.8399,
+        "lon": 77.677,
+        "district": "Electronic City, BLR",
+        "time_window": {
+          "open": "10:24",
+          "close": "18:16",
+          "open_min": 144.1,
+          "close_min": 616.99
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 7.03,
+        "total_service_time_min": 7.03
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0236_N20_S26_ORD015",
+      "weight_kg": 91.95,
+      "volume_m3": 0.46,
+      "pickup_node": {
+        "node_id": "INST0236_N20_S26_P015",
+        "node_type": "pickup",
+        "lat": 13.1361,
+        "lon": 78.129,
+        "district": "Kolar, Karnataka",
+        "time_window": {
+          "open": "08:16",
+          "close": "13:39",
+          "open_min": 16.18,
+          "close_min": 339.45
+        },
+        "packaging_time_min": 4.76,
+        "loading_time_min": 8.46,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 13.22
+      },
+      "delivery_node": {
+        "node_id": "INST0236_N20_S26_D015",
+        "node_type": "delivery",
+        "lat": 12.9653,
+        "lon": 77.8282,
+        "district": "Whitefield, Bengaluru",
+        "time_window": {
+          "open": "09:15",
+          "close": "14:38",
+          "open_min": 75.58,
+          "close_min": 398.85
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 3.07,
+        "total_service_time_min": 3.07
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0236_N20_S26_ORD016",
+      "weight_kg": 35.49,
+      "volume_m3": 0.47,
+      "pickup_node": {
+        "node_id": "INST0236_N20_S26_P016",
+        "node_type": "pickup",
+        "lat": 12.7161,
+        "lon": 77.2819,
+        "district": "Ramanagara, Karnataka",
+        "time_window": {
+          "open": "08:50",
+          "close": "16:03",
+          "open_min": 50.07,
+          "close_min": 483.15
+        },
+        "packaging_time_min": 5.08,
+        "loading_time_min": 7.94,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 13.02
+      },
+      "delivery_node": {
+        "node_id": "INST0236_N20_S26_D016",
+        "node_type": "delivery",
+        "lat": 13.0118,
+        "lon": 77.6358,
+        "district": "Koramangala, Bengaluru",
+        "time_window": {
+          "open": "10:04",
+          "close": "17:18",
+          "open_min": 124.96,
+          "close_min": 558.04
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 4.16,
+        "total_service_time_min": 4.16
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0236_N20_S26_ORD017",
+      "weight_kg": 66.75,
+      "volume_m3": 0.93,
+      "pickup_node": {
+        "node_id": "INST0236_N20_S26_P017",
+        "node_type": "pickup",
+        "lat": 12.6522,
+        "lon": 77.2061,
+        "district": "Channapatna, Karnataka",
+        "time_window": {
+          "open": "09:02",
+          "close": "18:44",
+          "open_min": 62.95,
+          "close_min": 644.85
+        },
+        "packaging_time_min": 2.98,
+        "loading_time_min": 5.41,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 8.39
+      },
+      "delivery_node": {
+        "node_id": "INST0236_N20_S26_D017",
+        "node_type": "delivery",
+        "lat": 12.7409,
+        "lon": 77.8253,
+        "district": "Hosur, Tamil Nadu",
+        "time_window": {
+          "open": "10:34",
+          "close": "20:16",
+          "open_min": 154.47,
+          "close_min": 736.37
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 4.93,
+        "total_service_time_min": 4.93
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0236_N20_S26_ORD018",
+      "weight_kg": 45.68,
+      "volume_m3": 0.37,
+      "pickup_node": {
+        "node_id": "INST0236_N20_S26_P018",
+        "node_type": "pickup",
+        "lat": 12.9653,
+        "lon": 77.8282,
+        "district": "Whitefield, Bengaluru",
+        "time_window": {
+          "open": "08:00",
+          "close": "00:04",
+          "open_min": 0.0,
+          "close_min": 964.94
+        },
+        "packaging_time_min": 3.76,
+        "loading_time_min": 6.41,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 10.17
+      },
+      "delivery_node": {
+        "node_id": "INST0236_N20_S26_D018",
+        "node_type": "delivery",
+        "lat": 12.5218,
+        "lon": 76.8951,
+        "district": "Mandya, Karnataka",
+        "time_window": {
+          "open": "09:58",
+          "close": "02:02",
+          "open_min": 118.02,
+          "close_min": 1082.96
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 6.22,
+        "total_service_time_min": 6.22
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0236_N20_S26_ORD019",
+      "weight_kg": 150.23,
+      "volume_m3": 0.61,
+      "pickup_node": {
+        "node_id": "INST0236_N20_S26_P019",
+        "node_type": "pickup",
+        "lat": 12.7161,
+        "lon": 77.2819,
+        "district": "Ramanagara, Karnataka",
+        "time_window": {
+          "open": "08:50",
+          "close": "19:06",
+          "open_min": 50.07,
+          "close_min": 666.05
+        },
+        "packaging_time_min": 2.11,
+        "loading_time_min": 8.53,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 10.64
+      },
+      "delivery_node": {
+        "node_id": "INST0236_N20_S26_D019",
+        "node_type": "delivery",
+        "lat": 13.3379,
+        "lon": 77.101,
+        "district": "Tumkur, Karnataka",
+        "time_window": {
+          "open": "10:28",
+          "close": "20:44",
+          "open_min": 148.7,
+          "close_min": 764.69
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 6.92,
+        "total_service_time_min": 6.92
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    }
+  ]
+}

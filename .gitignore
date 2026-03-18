@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+venv_new/
+env/
+.env
+.venv
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Trained models (too large, not reproducible without training)
+models/
+models_v2/
+models_v3/
+models_v4/
+*.zip
+*.pkl
+*.pt
+*.pth
+
+# Logs
+logs/
+*.log
+
+# Outputs (generated at runtime)
+outputs/
+!outputs/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backup files
+*_backup.py
+*.bak
+
+# Data (keep dataset_v3 but ignore large generated files)
+data/*.zip
+data/**/*.tmp
+data/synthetic_dataset/
+data/or_cache/
+data/clean_dataset/
+data/clean_dataset_v2/
+data/clean_dataset_v3/
+data/generate_dataset_v3.py

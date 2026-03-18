@@ -1,0 +1,153 @@
+{
+  "instance_id": "INST0005_N3_S05",
+  "source_dataset": "SOUTH",
+  "num_orders": 3,
+  "vehicle": {
+    "vehicle_type": "medium_truck",
+    "capacity_weight_kg": 6000,
+    "capacity_volume_m3": 28,
+    "fuel_type": "diesel",
+    "mileage": 8.0,
+    "fuel_price_per_unit": 90.38,
+    "carbon_per_km": 0.252,
+    "vehicle_id": "INST0005_N3_S05_truck",
+    "current_location": {
+      "node_id": "depot",
+      "lat": 13.0118,
+      "lon": 77.6358,
+      "district": "Koramangala, Bengaluru"
+    },
+    "route_start_time": "08:00"
+  },
+  "orders": [
+    {
+      "order_id": "INST0005_N3_S05_ORD000",
+      "weight_kg": 1358.38,
+      "volume_m3": 2.82,
+      "pickup_node": {
+        "node_id": "INST0005_N3_S05_P000",
+        "node_type": "pickup",
+        "lat": 13.0435,
+        "lon": 77.5971,
+        "district": "Hebbal, Bengaluru",
+        "time_window": {
+          "open": "08:00",
+          "close": "02:30",
+          "open_min": 0.0,
+          "close_min": 1110.23
+        },
+        "packaging_time_min": 4.21,
+        "loading_time_min": 8.18,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 12.39
+      },
+      "delivery_node": {
+        "node_id": "INST0005_N3_S05_D000",
+        "node_type": "delivery",
+        "lat": 12.3108,
+        "lon": 76.6689,
+        "district": "Saraswathipuram, Mysuru",
+        "time_window": {
+          "open": "10:27",
+          "close": "04:57",
+          "open_min": 147.7,
+          "close_min": 1257.93
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 6.52,
+        "total_service_time_min": 6.52
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0005_N3_S05_ORD001",
+      "weight_kg": 1162.41,
+      "volume_m3": 12.29,
+      "pickup_node": {
+        "node_id": "INST0005_N3_S05_P001",
+        "node_type": "pickup",
+        "lat": 12.7161,
+        "lon": 77.2819,
+        "district": "Ramanagara, Karnataka",
+        "time_window": {
+          "open": "08:31",
+          "close": "23:14",
+          "open_min": 31.87,
+          "close_min": 914.74
+        },
+        "packaging_time_min": 2.4,
+        "loading_time_min": 7.95,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 10.35
+      },
+      "delivery_node": {
+        "node_id": "INST0005_N3_S05_D001",
+        "node_type": "delivery",
+        "lat": 13.1361,
+        "lon": 78.129,
+        "district": "Kolar, Karnataka",
+        "time_window": {
+          "open": "10:48",
+          "close": "01:31",
+          "open_min": 168.34,
+          "close_min": 1051.22
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 4.96,
+        "total_service_time_min": 4.96
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0005_N3_S05_ORD002",
+      "weight_kg": 1904.43,
+      "volume_m3": 5.66,
+      "pickup_node": {
+        "node_id": "INST0005_N3_S05_P002",
+        "node_type": "pickup",
+        "lat": 12.6522,
+        "lon": 77.2061,
+        "district": "Channapatna, Karnataka",
+        "time_window": {
+          "open": "08:45",
+          "close": "16:32",
+          "open_min": 45.18,
+          "close_min": 512.88
+        },
+        "packaging_time_min": 5.78,
+        "loading_time_min": 6.51,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 12.29
+      },
+      "delivery_node": {
+        "node_id": "INST0005_N3_S05_D002",
+        "node_type": "delivery",
+        "lat": 13.0228,
+        "lon": 77.536,
+        "district": "Yeshwanthpur, BLR",
+        "time_window": {
+          "open": "10:04",
+          "close": "17:51",
+          "open_min": 124.28,
+          "close_min": 591.99
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 7.71,
+        "total_service_time_min": 7.71
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    }
+  ]
+}

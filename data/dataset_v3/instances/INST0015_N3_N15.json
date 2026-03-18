@@ -1,0 +1,153 @@
+{
+  "instance_id": "INST0015_N3_N15",
+  "source_dataset": "NORTH",
+  "num_orders": 3,
+  "vehicle": {
+    "vehicle_type": "large_truck",
+    "capacity_weight_kg": 12000,
+    "capacity_volume_m3": 60,
+    "fuel_type": "diesel",
+    "mileage": 6.32,
+    "fuel_price_per_unit": 90.51,
+    "carbon_per_km": 0.273,
+    "vehicle_id": "INST0015_N3_N15_truck",
+    "current_location": {
+      "node_id": "depot",
+      "lat": 28.6315,
+      "lon": 77.2167,
+      "district": "Connaught Place, Delhi"
+    },
+    "route_start_time": "08:00"
+  },
+  "orders": [
+    {
+      "order_id": "INST0015_N3_N15_ORD000",
+      "weight_kg": 3847.87,
+      "volume_m3": 3.05,
+      "pickup_node": {
+        "node_id": "INST0015_N3_N15_P000",
+        "node_type": "pickup",
+        "lat": 28.571,
+        "lon": 77.243,
+        "district": "Lajpat Nagar, Delhi",
+        "time_window": {
+          "open": "08:00",
+          "close": "18:15",
+          "open_min": 0.0,
+          "close_min": 615.25
+        },
+        "packaging_time_min": 2.92,
+        "loading_time_min": 7.21,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 10.13
+      },
+      "delivery_node": {
+        "node_id": "INST0015_N3_N15_D000",
+        "node_type": "delivery",
+        "lat": 28.8955,
+        "lon": 76.6066,
+        "district": "Rohtak, Haryana",
+        "time_window": {
+          "open": "09:16",
+          "close": "19:32",
+          "open_min": 76.84,
+          "close_min": 692.09
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 4.66,
+        "total_service_time_min": 4.66
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0015_N3_N15_ORD001",
+      "weight_kg": 1683.26,
+      "volume_m3": 21.94,
+      "pickup_node": {
+        "node_id": "INST0015_N3_N15_P001",
+        "node_type": "pickup",
+        "lat": 28.571,
+        "lon": 77.243,
+        "district": "Lajpat Nagar, Delhi",
+        "time_window": {
+          "open": "08:00",
+          "close": "21:35",
+          "open_min": 0.0,
+          "close_min": 815.45
+        },
+        "packaging_time_min": 5.58,
+        "loading_time_min": 6.85,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 12.43
+      },
+      "delivery_node": {
+        "node_id": "INST0015_N3_N15_D001",
+        "node_type": "delivery",
+        "lat": 29.3909,
+        "lon": 76.9635,
+        "district": "Panipat, Haryana",
+        "time_window": {
+          "open": "09:47",
+          "close": "23:23",
+          "open_min": 107.74,
+          "close_min": 923.19
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 6.95,
+        "total_service_time_min": 6.95
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0015_N3_N15_ORD002",
+      "weight_kg": 1969.32,
+      "volume_m3": 17.41,
+      "pickup_node": {
+        "node_id": "INST0015_N3_N15_P002",
+        "node_type": "pickup",
+        "lat": 28.8955,
+        "lon": 76.6066,
+        "district": "Rohtak, Haryana",
+        "time_window": {
+          "open": "08:51",
+          "close": "16:46",
+          "open_min": 51.21,
+          "close_min": 526.37
+        },
+        "packaging_time_min": 5.69,
+        "loading_time_min": 6.81,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 12.5
+      },
+      "delivery_node": {
+        "node_id": "INST0015_N3_N15_D002",
+        "node_type": "delivery",
+        "lat": 28.7022,
+        "lon": 77.131,
+        "district": "Pitampura, Delhi",
+        "time_window": {
+          "open": "10:11",
+          "close": "18:06",
+          "open_min": 131.59,
+          "close_min": 606.75
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 6.38,
+        "total_service_time_min": 6.38
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    }
+  ]
+}

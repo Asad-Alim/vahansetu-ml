@@ -1,0 +1,540 @@
+{
+  "instance_id": "INST0145_N12_W25",
+  "source_dataset": "WEST",
+  "num_orders": 12,
+  "vehicle": {
+    "vehicle_type": "pickup_truck",
+    "capacity_weight_kg": 2500,
+    "capacity_volume_m3": 12,
+    "fuel_type": "diesel",
+    "mileage": 10.54,
+    "fuel_price_per_unit": 94.71,
+    "carbon_per_km": 0.188,
+    "vehicle_id": "INST0145_N12_W25_truck",
+    "current_location": {
+      "node_id": "depot",
+      "lat": 19.1136,
+      "lon": 72.8697,
+      "district": "Andheri East, Mumbai"
+    },
+    "route_start_time": "08:00"
+  },
+  "orders": [
+    {
+      "order_id": "INST0145_N12_W25_ORD000",
+      "weight_kg": 102.26,
+      "volume_m3": 0.53,
+      "pickup_node": {
+        "node_id": "INST0145_N12_W25_P000",
+        "node_type": "pickup",
+        "lat": 19.301,
+        "lon": 73.0586,
+        "district": "Bhiwandi, Thane",
+        "time_window": {
+          "open": "08:05",
+          "close": "23:38",
+          "open_min": 5.23,
+          "close_min": 938.73
+        },
+        "packaging_time_min": 5.57,
+        "loading_time_min": 7.67,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 13.24
+      },
+      "delivery_node": {
+        "node_id": "INST0145_N12_W25_D000",
+        "node_type": "delivery",
+        "lat": 19.9975,
+        "lon": 73.7898,
+        "district": "CBS, Nashik",
+        "time_window": {
+          "open": "10:31",
+          "close": "02:05",
+          "open_min": 151.83,
+          "close_min": 1085.33
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 7.77,
+        "total_service_time_min": 7.77
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0145_N12_W25_ORD001",
+      "weight_kg": 108.91,
+      "volume_m3": 0.58,
+      "pickup_node": {
+        "node_id": "INST0145_N12_W25_P001",
+        "node_type": "pickup",
+        "lat": 18.6414,
+        "lon": 72.8722,
+        "district": "Alibag, Raigad",
+        "time_window": {
+          "open": "08:34",
+          "close": "22:03",
+          "open_min": 34.29,
+          "close_min": 843.8
+        },
+        "packaging_time_min": 4.1,
+        "loading_time_min": 9.14,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 13.24
+      },
+      "delivery_node": {
+        "node_id": "INST0145_N12_W25_D001",
+        "node_type": "delivery",
+        "lat": 18.6229,
+        "lon": 73.7683,
+        "district": "Hinjewadi, Pune",
+        "time_window": {
+          "open": "10:43",
+          "close": "00:12",
+          "open_min": 163.18,
+          "close_min": 972.68
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 6.48,
+        "total_service_time_min": 6.48
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0145_N12_W25_ORD002",
+      "weight_kg": 91.85,
+      "volume_m3": 0.77,
+      "pickup_node": {
+        "node_id": "INST0145_N12_W25_P002",
+        "node_type": "pickup",
+        "lat": 19.033,
+        "lon": 73.0297,
+        "district": "Navi Mumbai, MH",
+        "time_window": {
+          "open": "08:00",
+          "close": "11:00",
+          "open_min": 0.0,
+          "close_min": 180.0
+        },
+        "packaging_time_min": 5.82,
+        "loading_time_min": 7.59,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 13.41
+      },
+      "delivery_node": {
+        "node_id": "INST0145_N12_W25_D002",
+        "node_type": "delivery",
+        "lat": 18.9535,
+        "lon": 72.9255,
+        "district": "Dadar, Mumbai",
+        "time_window": {
+          "open": "08:23",
+          "close": "11:23",
+          "open_min": 23.98,
+          "close_min": 203.98
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 5.39,
+        "total_service_time_min": 5.39
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0145_N12_W25_ORD003",
+      "weight_kg": 56.37,
+      "volume_m3": 0.72,
+      "pickup_node": {
+        "node_id": "INST0145_N12_W25_P003",
+        "node_type": "pickup",
+        "lat": 18.9894,
+        "lon": 73.1175,
+        "district": "Panvel, Raigad",
+        "time_window": {
+          "open": "08:06",
+          "close": "13:49",
+          "open_min": 6.1,
+          "close_min": 349.49
+        },
+        "packaging_time_min": 2.67,
+        "loading_time_min": 4.52,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 7.19
+      },
+      "delivery_node": {
+        "node_id": "INST0145_N12_W25_D003",
+        "node_type": "delivery",
+        "lat": 18.7546,
+        "lon": 73.4063,
+        "district": "Lonavala, Pune",
+        "time_window": {
+          "open": "09:02",
+          "close": "14:45",
+          "open_min": 62.34,
+          "close_min": 405.74
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 3.5,
+        "total_service_time_min": 3.5
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0145_N12_W25_ORD004",
+      "weight_kg": 149.81,
+      "volume_m3": 0.15,
+      "pickup_node": {
+        "node_id": "INST0145_N12_W25_P004",
+        "node_type": "pickup",
+        "lat": 19.1136,
+        "lon": 72.8697,
+        "district": "Andheri East, Mumbai",
+        "time_window": {
+          "open": "08:00",
+          "close": "12:06",
+          "open_min": 0.0,
+          "close_min": 246.59
+        },
+        "packaging_time_min": 4.81,
+        "loading_time_min": 9.35,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 14.16
+      },
+      "delivery_node": {
+        "node_id": "INST0145_N12_W25_D004",
+        "node_type": "delivery",
+        "lat": 19.301,
+        "lon": 73.0586,
+        "district": "Bhiwandi, Thane",
+        "time_window": {
+          "open": "08:19",
+          "close": "12:25",
+          "open_min": 19.39,
+          "close_min": 265.98
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 3.36,
+        "total_service_time_min": 3.36
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0145_N12_W25_ORD005",
+      "weight_kg": 55.53,
+      "volume_m3": 0.21,
+      "pickup_node": {
+        "node_id": "INST0145_N12_W25_P005",
+        "node_type": "pickup",
+        "lat": 19.301,
+        "lon": 73.0586,
+        "district": "Bhiwandi, Thane",
+        "time_window": {
+          "open": "08:05",
+          "close": "18:12",
+          "open_min": 5.23,
+          "close_min": 612.97
+        },
+        "packaging_time_min": 4.27,
+        "loading_time_min": 4.38,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 8.65
+      },
+      "delivery_node": {
+        "node_id": "INST0145_N12_W25_D005",
+        "node_type": "delivery",
+        "lat": 18.7546,
+        "lon": 73.4063,
+        "district": "Lonavala, Pune",
+        "time_window": {
+          "open": "09:40",
+          "close": "19:48",
+          "open_min": 100.7,
+          "close_min": 708.44
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 7.05,
+        "total_service_time_min": 7.05
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0145_N12_W25_ORD006",
+      "weight_kg": 204.54,
+      "volume_m3": 0.99,
+      "pickup_node": {
+        "node_id": "INST0145_N12_W25_P006",
+        "node_type": "pickup",
+        "lat": 18.6414,
+        "lon": 72.8722,
+        "district": "Alibag, Raigad",
+        "time_window": {
+          "open": "08:34",
+          "close": "15:13",
+          "open_min": 34.29,
+          "close_min": 433.02
+        },
+        "packaging_time_min": 4.76,
+        "loading_time_min": 5.77,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 10.53
+      },
+      "delivery_node": {
+        "node_id": "INST0145_N12_W25_D006",
+        "node_type": "delivery",
+        "lat": 18.9894,
+        "lon": 73.1175,
+        "district": "Panvel, Raigad",
+        "time_window": {
+          "open": "09:41",
+          "close": "16:20",
+          "open_min": 101.79,
+          "close_min": 500.51
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 4.51,
+        "total_service_time_min": 4.51
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0145_N12_W25_ORD007",
+      "weight_kg": 296.28,
+      "volume_m3": 0.56,
+      "pickup_node": {
+        "node_id": "INST0145_N12_W25_P007",
+        "node_type": "pickup",
+        "lat": 18.9167,
+        "lon": 73.3167,
+        "district": "Karjat, Raigad",
+        "time_window": {
+          "open": "08:33",
+          "close": "15:47",
+          "open_min": 33.48,
+          "close_min": 467.28
+        },
+        "packaging_time_min": 4.71,
+        "loading_time_min": 4.72,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 9.43
+      },
+      "delivery_node": {
+        "node_id": "INST0145_N12_W25_D007",
+        "node_type": "delivery",
+        "lat": 19.301,
+        "lon": 73.0586,
+        "district": "Bhiwandi, Thane",
+        "time_window": {
+          "open": "09:44",
+          "close": "16:58",
+          "open_min": 104.88,
+          "close_min": 538.69
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 3.69,
+        "total_service_time_min": 3.69
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0145_N12_W25_ORD008",
+      "weight_kg": 178.48,
+      "volume_m3": 0.38,
+      "pickup_node": {
+        "node_id": "INST0145_N12_W25_P008",
+        "node_type": "pickup",
+        "lat": 19.1136,
+        "lon": 72.8697,
+        "district": "Andheri East, Mumbai",
+        "time_window": {
+          "open": "08:00",
+          "close": "23:35",
+          "open_min": 0.0,
+          "close_min": 935.7
+        },
+        "packaging_time_min": 4.85,
+        "loading_time_min": 7.39,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 12.24
+      },
+      "delivery_node": {
+        "node_id": "INST0145_N12_W25_D008",
+        "node_type": "delivery",
+        "lat": 18.6229,
+        "lon": 73.7683,
+        "district": "Hinjewadi, Pune",
+        "time_window": {
+          "open": "09:55",
+          "close": "01:31",
+          "open_min": 115.91,
+          "close_min": 1051.61
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 3.57,
+        "total_service_time_min": 3.57
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0145_N12_W25_ORD009",
+      "weight_kg": 25.87,
+      "volume_m3": 0.99,
+      "pickup_node": {
+        "node_id": "INST0145_N12_W25_P009",
+        "node_type": "pickup",
+        "lat": 18.9535,
+        "lon": 72.9255,
+        "district": "Dadar, Mumbai",
+        "time_window": {
+          "open": "08:00",
+          "close": "13:52",
+          "open_min": 0.0,
+          "close_min": 352.22
+        },
+        "packaging_time_min": 2.48,
+        "loading_time_min": 8.15,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 10.63
+      },
+      "delivery_node": {
+        "node_id": "INST0145_N12_W25_D009",
+        "node_type": "delivery",
+        "lat": 19.301,
+        "lon": 73.0586,
+        "district": "Bhiwandi, Thane",
+        "time_window": {
+          "open": "08:53",
+          "close": "14:46",
+          "open_min": 53.9,
+          "close_min": 406.12
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 3.06,
+        "total_service_time_min": 3.06
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0145_N12_W25_ORD010",
+      "weight_kg": 46.53,
+      "volume_m3": 0.7,
+      "pickup_node": {
+        "node_id": "INST0145_N12_W25_P010",
+        "node_type": "pickup",
+        "lat": 18.9894,
+        "lon": 73.1175,
+        "district": "Panvel, Raigad",
+        "time_window": {
+          "open": "08:06",
+          "close": "13:49",
+          "open_min": 6.1,
+          "close_min": 349.49
+        },
+        "packaging_time_min": 5.81,
+        "loading_time_min": 5.96,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 11.77
+      },
+      "delivery_node": {
+        "node_id": "INST0145_N12_W25_D010",
+        "node_type": "delivery",
+        "lat": 18.7546,
+        "lon": 73.4063,
+        "district": "Lonavala, Pune",
+        "time_window": {
+          "open": "09:06",
+          "close": "14:50",
+          "open_min": 66.92,
+          "close_min": 410.32
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 4.53,
+        "total_service_time_min": 4.53
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0145_N12_W25_ORD011",
+      "weight_kg": 102.41,
+      "volume_m3": 0.33,
+      "pickup_node": {
+        "node_id": "INST0145_N12_W25_P011",
+        "node_type": "pickup",
+        "lat": 18.7546,
+        "lon": 73.4063,
+        "district": "Lonavala, Pune",
+        "time_window": {
+          "open": "08:54",
+          "close": "17:58",
+          "open_min": 54.65,
+          "close_min": 598.46
+        },
+        "packaging_time_min": 2.44,
+        "loading_time_min": 5.22,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 7.66
+      },
+      "delivery_node": {
+        "node_id": "INST0145_N12_W25_D011",
+        "node_type": "delivery",
+        "lat": 19.1825,
+        "lon": 73.0072,
+        "district": "Thane West, Mumbai",
+        "time_window": {
+          "open": "10:19",
+          "close": "19:23",
+          "open_min": 139.99,
+          "close_min": 683.8
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 6.78,
+        "total_service_time_min": 6.78
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "instance_id": "INST0023_N3_S23",
+  "source_dataset": "SOUTH",
+  "num_orders": 3,
+  "vehicle": {
+    "vehicle_type": "tempo",
+    "capacity_weight_kg": 1000,
+    "capacity_volume_m3": 6,
+    "fuel_type": "petrol",
+    "mileage": 12.99,
+    "fuel_price_per_unit": 108.68,
+    "carbon_per_km": 0.203,
+    "vehicle_id": "INST0023_N3_S23_truck",
+    "current_location": {
+      "node_id": "depot",
+      "lat": 13.0435,
+      "lon": 77.5971,
+      "district": "Hebbal, Bengaluru"
+    },
+    "route_start_time": "08:00"
+  },
+  "orders": [
+    {
+      "order_id": "INST0023_N3_S23_ORD000",
+      "weight_kg": 529.5,
+      "volume_m3": 2.83,
+      "pickup_node": {
+        "node_id": "INST0023_N3_S23_P000",
+        "node_type": "pickup",
+        "lat": 13.0228,
+        "lon": 77.536,
+        "district": "Yeshwanthpur, BLR",
+        "time_window": {
+          "open": "08:00",
+          "close": "16:23",
+          "open_min": 0.0,
+          "close_min": 503.14
+        },
+        "packaging_time_min": 3.63,
+        "loading_time_min": 4.87,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 8.5
+      },
+      "delivery_node": {
+        "node_id": "INST0023_N3_S23_D000",
+        "node_type": "delivery",
+        "lat": 13.3379,
+        "lon": 77.101,
+        "district": "Tumkur, Karnataka",
+        "time_window": {
+          "open": "08:58",
+          "close": "17:22",
+          "open_min": 58.96,
+          "close_min": 562.1
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 7.96,
+        "total_service_time_min": 7.96
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0023_N3_S23_ORD001",
+      "weight_kg": 181.72,
+      "volume_m3": 1.37,
+      "pickup_node": {
+        "node_id": "INST0023_N3_S23_P001",
+        "node_type": "pickup",
+        "lat": 12.9653,
+        "lon": 77.8282,
+        "district": "Whitefield, Bengaluru",
+        "time_window": {
+          "open": "08:02",
+          "close": "12:39",
+          "open_min": 2.46,
+          "close_min": 279.3
+        },
+        "packaging_time_min": 2.6,
+        "loading_time_min": 8.37,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 10.97
+      },
+      "delivery_node": {
+        "node_id": "INST0023_N3_S23_D001",
+        "node_type": "delivery",
+        "lat": 13.0228,
+        "lon": 77.536,
+        "district": "Yeshwanthpur, BLR",
+        "time_window": {
+          "open": "08:52",
+          "close": "13:29",
+          "open_min": 52.97,
+          "close_min": 329.82
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 4.03,
+        "total_service_time_min": 4.03
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0023_N3_S23_ORD002",
+      "weight_kg": 135.28,
+      "volume_m3": 0.86,
+      "pickup_node": {
+        "node_id": "INST0023_N3_S23_P002",
+        "node_type": "pickup",
+        "lat": 12.9653,
+        "lon": 77.8282,
+        "district": "Whitefield, Bengaluru",
+        "time_window": {
+          "open": "08:02",
+          "close": "12:39",
+          "open_min": 2.46,
+          "close_min": 279.3
+        },
+        "packaging_time_min": 3.98,
+        "loading_time_min": 5.72,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 9.7
+      },
+      "delivery_node": {
+        "node_id": "INST0023_N3_S23_D002",
+        "node_type": "delivery",
+        "lat": 13.0228,
+        "lon": 77.536,
+        "district": "Yeshwanthpur, BLR",
+        "time_window": {
+          "open": "08:51",
+          "close": "13:28",
+          "open_min": 51.7,
+          "close_min": 328.55
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 3.36,
+        "total_service_time_min": 3.36
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    }
+  ]
+}

@@ -1,0 +1,669 @@
+{
+  "instance_id": "INST0165_N15_N15",
+  "source_dataset": "NORTH",
+  "num_orders": 15,
+  "vehicle": {
+    "vehicle_type": "pickup_truck",
+    "capacity_weight_kg": 2500,
+    "capacity_volume_m3": 12,
+    "fuel_type": "diesel",
+    "mileage": 10.25,
+    "fuel_price_per_unit": 94.53,
+    "carbon_per_km": 0.238,
+    "vehicle_id": "INST0165_N15_N15_truck",
+    "current_location": {
+      "node_id": "depot",
+      "lat": 28.6315,
+      "lon": 77.2167,
+      "district": "Connaught Place, Delhi"
+    },
+    "route_start_time": "08:00"
+  },
+  "orders": [
+    {
+      "order_id": "INST0165_N15_N15_ORD000",
+      "weight_kg": 116.99,
+      "volume_m3": 0.88,
+      "pickup_node": {
+        "node_id": "INST0165_N15_N15_P000",
+        "node_type": "pickup",
+        "lat": 28.6613,
+        "lon": 76.9959,
+        "district": "Dwarka, Delhi",
+        "time_window": {
+          "open": "08:00",
+          "close": "11:00",
+          "open_min": 0.0,
+          "close_min": 180.0
+        },
+        "packaging_time_min": 5.7,
+        "loading_time_min": 8.65,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 14.35
+      },
+      "delivery_node": {
+        "node_id": "INST0165_N15_N15_D000",
+        "node_type": "delivery",
+        "lat": 28.7041,
+        "lon": 77.1025,
+        "district": "Rohini, Delhi",
+        "time_window": {
+          "open": "08:25",
+          "close": "11:25",
+          "open_min": 25.05,
+          "close_min": 205.05
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 6.74,
+        "total_service_time_min": 6.74
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0165_N15_N15_ORD001",
+      "weight_kg": 92.57,
+      "volume_m3": 0.28,
+      "pickup_node": {
+        "node_id": "INST0165_N15_N15_P001",
+        "node_type": "pickup",
+        "lat": 28.6315,
+        "lon": 77.2167,
+        "district": "Connaught Place, Delhi",
+        "time_window": {
+          "open": "08:00",
+          "close": "16:49",
+          "open_min": 0.0,
+          "close_min": 529.57
+        },
+        "packaging_time_min": 2.8,
+        "loading_time_min": 6.21,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 9.01
+      },
+      "delivery_node": {
+        "node_id": "INST0165_N15_N15_D001",
+        "node_type": "delivery",
+        "lat": 28.9845,
+        "lon": 77.7064,
+        "district": "Meerut Cantonment, UP",
+        "time_window": {
+          "open": "08:54",
+          "close": "17:44",
+          "open_min": 54.66,
+          "close_min": 584.24
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 3.43,
+        "total_service_time_min": 3.43
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0165_N15_N15_ORD002",
+      "weight_kg": 104.87,
+      "volume_m3": 0.59,
+      "pickup_node": {
+        "node_id": "INST0165_N15_N15_P002",
+        "node_type": "pickup",
+        "lat": 28.6613,
+        "lon": 76.9959,
+        "district": "Dwarka, Delhi",
+        "time_window": {
+          "open": "08:00",
+          "close": "13:45",
+          "open_min": 0.0,
+          "close_min": 345.14
+        },
+        "packaging_time_min": 2.73,
+        "loading_time_min": 6.71,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 9.44
+      },
+      "delivery_node": {
+        "node_id": "INST0165_N15_N15_D002",
+        "node_type": "delivery",
+        "lat": 28.6483,
+        "lon": 77.4083,
+        "district": "Noida Sector 18, UP",
+        "time_window": {
+          "open": "08:55",
+          "close": "14:40",
+          "open_min": 55.44,
+          "close_min": 400.58
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 3.88,
+        "total_service_time_min": 3.88
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0165_N15_N15_ORD003",
+      "weight_kg": 128.78,
+      "volume_m3": 1.08,
+      "pickup_node": {
+        "node_id": "INST0165_N15_N15_P003",
+        "node_type": "pickup",
+        "lat": 28.6315,
+        "lon": 77.2167,
+        "district": "Connaught Place, Delhi",
+        "time_window": {
+          "open": "08:00",
+          "close": "01:02",
+          "open_min": 0.0,
+          "close_min": 1022.24
+        },
+        "packaging_time_min": 2.41,
+        "loading_time_min": 8.49,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 10.9
+      },
+      "delivery_node": {
+        "node_id": "INST0165_N15_N15_D003",
+        "node_type": "delivery",
+        "lat": 29.6857,
+        "lon": 76.9905,
+        "district": "Karnal, Haryana",
+        "time_window": {
+          "open": "10:06",
+          "close": "03:09",
+          "open_min": 126.93,
+          "close_min": 1149.18
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 3.93,
+        "total_service_time_min": 3.93
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0165_N15_N15_ORD004",
+      "weight_kg": 101.58,
+      "volume_m3": 0.56,
+      "pickup_node": {
+        "node_id": "INST0165_N15_N15_P004",
+        "node_type": "pickup",
+        "lat": 28.571,
+        "lon": 77.243,
+        "district": "Lajpat Nagar, Delhi",
+        "time_window": {
+          "open": "08:00",
+          "close": "02:03",
+          "open_min": 0.0,
+          "close_min": 1083.02
+        },
+        "packaging_time_min": 2.39,
+        "loading_time_min": 9.35,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 11.74
+      },
+      "delivery_node": {
+        "node_id": "INST0165_N15_N15_D004",
+        "node_type": "delivery",
+        "lat": 29.6857,
+        "lon": 76.9905,
+        "district": "Karnal, Haryana",
+        "time_window": {
+          "open": "10:25",
+          "close": "04:28",
+          "open_min": 145.27,
+          "close_min": 1228.29
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 3.61,
+        "total_service_time_min": 3.61
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0165_N15_N15_ORD005",
+      "weight_kg": 42.37,
+      "volume_m3": 0.47,
+      "pickup_node": {
+        "node_id": "INST0165_N15_N15_P005",
+        "node_type": "pickup",
+        "lat": 28.337,
+        "lon": 77.3209,
+        "district": "NIT, Faridabad",
+        "time_window": {
+          "open": "08:11",
+          "close": "14:34",
+          "open_min": 11.99,
+          "close_min": 394.67
+        },
+        "packaging_time_min": 3.21,
+        "loading_time_min": 4.28,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 7.49
+      },
+      "delivery_node": {
+        "node_id": "INST0165_N15_N15_D005",
+        "node_type": "delivery",
+        "lat": 28.7022,
+        "lon": 77.131,
+        "district": "Pitampura, Delhi",
+        "time_window": {
+          "open": "09:14",
+          "close": "15:36",
+          "open_min": 74.15,
+          "close_min": 456.83
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 5.66,
+        "total_service_time_min": 5.66
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0165_N15_N15_ORD006",
+      "weight_kg": 80.43,
+      "volume_m3": 0.33,
+      "pickup_node": {
+        "node_id": "INST0165_N15_N15_P006",
+        "node_type": "pickup",
+        "lat": 28.8955,
+        "lon": 76.6066,
+        "district": "Rohtak, Haryana",
+        "time_window": {
+          "open": "08:51",
+          "close": "18:07",
+          "open_min": 51.21,
+          "close_min": 607.15
+        },
+        "packaging_time_min": 2.28,
+        "loading_time_min": 8.35,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 10.63
+      },
+      "delivery_node": {
+        "node_id": "INST0165_N15_N15_D006",
+        "node_type": "delivery",
+        "lat": 28.4944,
+        "lon": 77.0894,
+        "district": "Cyber City, Gurgaon",
+        "time_window": {
+          "open": "10:21",
+          "close": "19:37",
+          "open_min": 141.26,
+          "close_min": 697.2
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 4.47,
+        "total_service_time_min": 4.47
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0165_N15_N15_ORD007",
+      "weight_kg": 143.25,
+      "volume_m3": 0.39,
+      "pickup_node": {
+        "node_id": "INST0165_N15_N15_P007",
+        "node_type": "pickup",
+        "lat": 28.6613,
+        "lon": 76.9959,
+        "district": "Dwarka, Delhi",
+        "time_window": {
+          "open": "08:00",
+          "close": "11:00",
+          "open_min": 0.0,
+          "close_min": 180.0
+        },
+        "packaging_time_min": 5.48,
+        "loading_time_min": 5.16,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 10.64
+      },
+      "delivery_node": {
+        "node_id": "INST0165_N15_N15_D007",
+        "node_type": "delivery",
+        "lat": 28.7022,
+        "lon": 77.131,
+        "district": "Pitampura, Delhi",
+        "time_window": {
+          "open": "08:24",
+          "close": "11:24",
+          "open_min": 24.41,
+          "close_min": 204.41
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 3.82,
+        "total_service_time_min": 3.82
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0165_N15_N15_ORD008",
+      "weight_kg": 95.42,
+      "volume_m3": 0.5,
+      "pickup_node": {
+        "node_id": "INST0165_N15_N15_P008",
+        "node_type": "pickup",
+        "lat": 28.7022,
+        "lon": 77.131,
+        "district": "Pitampura, Delhi",
+        "time_window": {
+          "open": "08:00",
+          "close": "11:00",
+          "open_min": 0.0,
+          "close_min": 180.0
+        },
+        "packaging_time_min": 4.49,
+        "loading_time_min": 4.85,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 9.34
+      },
+      "delivery_node": {
+        "node_id": "INST0165_N15_N15_D008",
+        "node_type": "delivery",
+        "lat": 28.571,
+        "lon": 77.243,
+        "district": "Lajpat Nagar, Delhi",
+        "time_window": {
+          "open": "08:15",
+          "close": "11:15",
+          "open_min": 15.71,
+          "close_min": 195.71
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 3.75,
+        "total_service_time_min": 3.75
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0165_N15_N15_ORD009",
+      "weight_kg": 153.47,
+      "volume_m3": 0.51,
+      "pickup_node": {
+        "node_id": "INST0165_N15_N15_P009",
+        "node_type": "pickup",
+        "lat": 28.6315,
+        "lon": 77.2167,
+        "district": "Connaught Place, Delhi",
+        "time_window": {
+          "open": "08:00",
+          "close": "11:00",
+          "open_min": 0.0,
+          "close_min": 180.0
+        },
+        "packaging_time_min": 5.83,
+        "loading_time_min": 5.62,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 11.45
+      },
+      "delivery_node": {
+        "node_id": "INST0165_N15_N15_D009",
+        "node_type": "delivery",
+        "lat": 28.6483,
+        "lon": 77.4083,
+        "district": "Noida Sector 18, UP",
+        "time_window": {
+          "open": "08:04",
+          "close": "11:04",
+          "open_min": 4.46,
+          "close_min": 184.46
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 4.52,
+        "total_service_time_min": 4.52
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0165_N15_N15_ORD010",
+      "weight_kg": 299.11,
+      "volume_m3": 0.98,
+      "pickup_node": {
+        "node_id": "INST0165_N15_N15_P010",
+        "node_type": "pickup",
+        "lat": 28.571,
+        "lon": 77.243,
+        "district": "Lajpat Nagar, Delhi",
+        "time_window": {
+          "open": "08:00",
+          "close": "18:15",
+          "open_min": 0.0,
+          "close_min": 615.25
+        },
+        "packaging_time_min": 5.76,
+        "loading_time_min": 8.46,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 14.22
+      },
+      "delivery_node": {
+        "node_id": "INST0165_N15_N15_D010",
+        "node_type": "delivery",
+        "lat": 28.8955,
+        "lon": 76.6066,
+        "district": "Rohtak, Haryana",
+        "time_window": {
+          "open": "09:20",
+          "close": "19:36",
+          "open_min": 80.93,
+          "close_min": 696.18
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 7.15,
+        "total_service_time_min": 7.15
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0165_N15_N15_ORD011",
+      "weight_kg": 54.61,
+      "volume_m3": 0.39,
+      "pickup_node": {
+        "node_id": "INST0165_N15_N15_P011",
+        "node_type": "pickup",
+        "lat": 28.7022,
+        "lon": 77.131,
+        "district": "Pitampura, Delhi",
+        "time_window": {
+          "open": "08:00",
+          "close": "11:00",
+          "open_min": 0.0,
+          "close_min": 180.0
+        },
+        "packaging_time_min": 5.45,
+        "loading_time_min": 5.66,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 11.11
+      },
+      "delivery_node": {
+        "node_id": "INST0165_N15_N15_D011",
+        "node_type": "delivery",
+        "lat": 28.6613,
+        "lon": 76.9959,
+        "district": "Dwarka, Delhi",
+        "time_window": {
+          "open": "08:12",
+          "close": "11:12",
+          "open_min": 12.23,
+          "close_min": 192.23
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 3.82,
+        "total_service_time_min": 3.82
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0165_N15_N15_ORD012",
+      "weight_kg": 263.26,
+      "volume_m3": 0.7,
+      "pickup_node": {
+        "node_id": "INST0165_N15_N15_P012",
+        "node_type": "pickup",
+        "lat": 28.571,
+        "lon": 77.243,
+        "district": "Lajpat Nagar, Delhi",
+        "time_window": {
+          "open": "08:00",
+          "close": "02:03",
+          "open_min": 0.0,
+          "close_min": 1083.02
+        },
+        "packaging_time_min": 2.91,
+        "loading_time_min": 6.01,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 8.92
+      },
+      "delivery_node": {
+        "node_id": "INST0165_N15_N15_D012",
+        "node_type": "delivery",
+        "lat": 29.6857,
+        "lon": 76.9905,
+        "district": "Karnal, Haryana",
+        "time_window": {
+          "open": "10:22",
+          "close": "04:25",
+          "open_min": 142.45,
+          "close_min": 1225.47
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 5.64,
+        "total_service_time_min": 5.64
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0165_N15_N15_ORD013",
+      "weight_kg": 124.55,
+      "volume_m3": 0.36,
+      "pickup_node": {
+        "node_id": "INST0165_N15_N15_P013",
+        "node_type": "pickup",
+        "lat": 28.337,
+        "lon": 77.3209,
+        "district": "NIT, Faridabad",
+        "time_window": {
+          "open": "08:11",
+          "close": "22:30",
+          "open_min": 11.99,
+          "close_min": 870.06
+        },
+        "packaging_time_min": 2.74,
+        "loading_time_min": 4.82,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 7.56
+      },
+      "delivery_node": {
+        "node_id": "INST0165_N15_N15_D013",
+        "node_type": "delivery",
+        "lat": 27.4924,
+        "lon": 77.6737,
+        "district": "Mathura, UP",
+        "time_window": {
+          "open": "10:22",
+          "close": "00:40",
+          "open_min": 142.13,
+          "close_min": 1000.21
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 5.28,
+        "total_service_time_min": 5.28
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0165_N15_N15_ORD014",
+      "weight_kg": 275.63,
+      "volume_m3": 0.75,
+      "pickup_node": {
+        "node_id": "INST0165_N15_N15_P014",
+        "node_type": "pickup",
+        "lat": 28.4944,
+        "lon": 77.0894,
+        "district": "Cyber City, Gurgaon",
+        "time_window": {
+          "open": "08:00",
+          "close": "17:15",
+          "open_min": 0.0,
+          "close_min": 555.94
+        },
+        "packaging_time_min": 2.65,
+        "loading_time_min": 5.48,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 8.13
+      },
+      "delivery_node": {
+        "node_id": "INST0165_N15_N15_D014",
+        "node_type": "delivery",
+        "lat": 28.8955,
+        "lon": 76.6066,
+        "district": "Rohtak, Haryana",
+        "time_window": {
+          "open": "09:21",
+          "close": "18:37",
+          "open_min": 81.64,
+          "close_min": 637.58
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 4.36,
+        "total_service_time_min": 4.36
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    }
+  ]
+}

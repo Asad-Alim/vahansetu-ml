@@ -1,0 +1,153 @@
+{
+  "instance_id": "INST0016_N3_W16",
+  "source_dataset": "WEST",
+  "num_orders": 3,
+  "vehicle": {
+    "vehicle_type": "large_truck",
+    "capacity_weight_kg": 12000,
+    "capacity_volume_m3": 60,
+    "fuel_type": "diesel",
+    "mileage": 6.43,
+    "fuel_price_per_unit": 93.45,
+    "carbon_per_km": 0.277,
+    "vehicle_id": "INST0016_N3_W16_truck",
+    "current_location": {
+      "node_id": "depot",
+      "lat": 18.9535,
+      "lon": 72.9255,
+      "district": "Dadar, Mumbai"
+    },
+    "route_start_time": "08:00"
+  },
+  "orders": [
+    {
+      "order_id": "INST0016_N3_W16_ORD000",
+      "weight_kg": 1820.9,
+      "volume_m3": 30.5,
+      "pickup_node": {
+        "node_id": "INST0016_N3_W16_P000",
+        "node_type": "pickup",
+        "lat": 19.301,
+        "lon": 73.0586,
+        "district": "Bhiwandi, Thane",
+        "time_window": {
+          "open": "08:20",
+          "close": "12:37",
+          "open_min": 20.32,
+          "close_min": 277.07
+        },
+        "packaging_time_min": 4.02,
+        "loading_time_min": 6.29,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 10.31
+      },
+      "delivery_node": {
+        "node_id": "INST0016_N3_W16_D000",
+        "node_type": "delivery",
+        "lat": 19.033,
+        "lon": 73.0297,
+        "district": "Navi Mumbai, MH",
+        "time_window": {
+          "open": "09:07",
+          "close": "13:24",
+          "open_min": 67.31,
+          "close_min": 324.06
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 5.0,
+        "total_service_time_min": 5.0
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0016_N3_W16_ORD001",
+      "weight_kg": 4899.14,
+      "volume_m3": 15.29,
+      "pickup_node": {
+        "node_id": "INST0016_N3_W16_P001",
+        "node_type": "pickup",
+        "lat": 19.1825,
+        "lon": 73.0072,
+        "district": "Thane West, Mumbai",
+        "time_window": {
+          "open": "08:02",
+          "close": "11:02",
+          "open_min": 2.9,
+          "close_min": 182.9
+        },
+        "packaging_time_min": 3.69,
+        "loading_time_min": 8.08,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 11.77
+      },
+      "delivery_node": {
+        "node_id": "INST0016_N3_W16_D001",
+        "node_type": "delivery",
+        "lat": 19.301,
+        "lon": 73.0586,
+        "district": "Bhiwandi, Thane",
+        "time_window": {
+          "open": "08:32",
+          "close": "11:32",
+          "open_min": 32.11,
+          "close_min": 212.11
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 5.68,
+        "total_service_time_min": 5.68
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    },
+    {
+      "order_id": "INST0016_N3_W16_ORD002",
+      "weight_kg": 2531.69,
+      "volume_m3": 4.88,
+      "pickup_node": {
+        "node_id": "INST0016_N3_W16_P002",
+        "node_type": "pickup",
+        "lat": 19.2183,
+        "lon": 72.8557,
+        "district": "Borivali West, Mumbai",
+        "time_window": {
+          "open": "08:07",
+          "close": "12:03",
+          "open_min": 7.16,
+          "close_min": 243.25
+        },
+        "packaging_time_min": 2.16,
+        "loading_time_min": 8.12,
+        "unloading_time_min": 0.0,
+        "total_service_time_min": 10.28
+      },
+      "delivery_node": {
+        "node_id": "INST0016_N3_W16_D002",
+        "node_type": "delivery",
+        "lat": 19.033,
+        "lon": 73.0297,
+        "district": "Navi Mumbai, MH",
+        "time_window": {
+          "open": "08:51",
+          "close": "12:47",
+          "open_min": 51.16,
+          "close_min": 287.26
+        },
+        "packaging_time_min": 0.0,
+        "loading_time_min": 0.0,
+        "unloading_time_min": 3.2,
+        "total_service_time_min": 3.2
+      },
+      "constraints": {
+        "pickup_before_delivery": true,
+        "deadline_type": "hard"
+      }
+    }
+  ]
+}
