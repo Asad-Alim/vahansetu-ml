@@ -91,9 +91,13 @@ def check_route(route: List[RouteNode],
         if prev_node is not None:
             curr_time += get_travel_time(prev_node, rn.node)
 
+        # # Wait if early
+        # curr_time = max(curr_time, rn.node.ready_time)
+        # arrivals.append(round(curr_time, 2))
         # Wait if early
+        raw_arrival = curr_time
         curr_time = max(curr_time, rn.node.ready_time)
-        arrivals.append(round(curr_time, 2))
+        arrivals.append(round(raw_arrival, 2))
 
         # Load/unload
         if rn.is_pickup:
@@ -146,28 +150,52 @@ def check_route(route: List[RouteNode],
 # Route metrics
 # ─────────────────────────────────────────────────────────────────────────────
 
-def compute_metrics(route: List[RouteNode],
-                    vehicle: VehicleConfig) -> Dict:
-    """
-    Compute total distance, travel time, carbon emission, and fuel cost.
-    """
-    total_dist = 0.0
-    total_time = 0.0
+# def compute_metrics(route: List[RouteNode],
+#                     vehicle: VehicleConfig) -> Dict:
+#     """
+#     Compute total distance, travel time, carbon emission, and fuel cost.
+#     """
+#     total_dist = 0.0
+#     total_time = 0.0
 
+#     for i in range(1, len(route)):
+#         a = route[i - 1].node
+#         b = route[i].node
+#         total_dist += get_distance(a, b)
+#         total_time += get_travel_time(a, b)
+
+#     carbon    = total_dist * vehicle.emission_factor
+#     fuel_cost = total_dist * vehicle.fuel_cost_per_km
+
+#     return {
+#         "total_distance_km":     round(total_dist, 2),
+#         "travel_time_min":       round(total_time, 2),
+#         "carbon_emission_kg":    round(carbon, 3),
+#         "fuel_cost_inr":         round(fuel_cost, 2),
+#     }
+def compute_metrics(route, vehicle, arrivals=None, departures=None):
+    total_dist  = 0.0
+    total_drive = 0.0
     for i in range(1, len(route)):
-        a = route[i - 1].node
+        a = route[i-1].node
         b = route[i].node
-        total_dist += get_distance(a, b)
-        total_time += get_travel_time(a, b)
+        total_dist  += get_distance(a, b)
+        total_drive += get_travel_time(a, b)
 
     carbon    = total_dist * vehicle.emission_factor
     fuel_cost = total_dist * vehicle.fuel_cost_per_km
 
+    wait_time = 0.0
+    if arrivals:
+        for i, rn in enumerate(route):
+            wait_time += max(0.0, rn.node.ready_time - arrivals[i])
+
     return {
-        "total_distance_km":     round(total_dist, 2),
-        "travel_time_min":       round(total_time, 2),
-        "carbon_emission_kg":    round(carbon, 3),
-        "fuel_cost_inr":         round(fuel_cost, 2),
+        "total_distance_km":  round(total_dist, 2),
+        "travel_time_min":    round(total_drive, 2),   # pure driving
+        "wait_time_min":      round(wait_time, 2),     # time waiting at windows
+        "carbon_emission_kg": round(carbon, 3),
+        "fuel_cost_inr":      round(fuel_cost, 2),
     }
 
 
@@ -175,21 +203,53 @@ def compute_metrics(route: List[RouteNode],
 # ETA/ETD schedule formatter
 # ─────────────────────────────────────────────────────────────────────────────
 
+# def format_schedule(route: List[RouteNode],
+#                     arrivals: List[float],
+#                     departures: List[float],
+#                     start_hhmm: str = "08:00") -> List[Dict]:
+#     """
+#     Convert relative-minute ETA/ETD to clock time strings.
+
+#     Args:
+#         start_hhmm: Route start time e.g. "08:00"
+
+#     Returns:
+#         List of {node_id, type, district, eta, etd, service_time_min}
+#     """
+#     from datetime import datetime, timedelta
+#     base = datetime.strptime(start_hhmm, "%H:%M")
+
+#     schedule = []
+#     for i, rn in enumerate(route):
+#         eta_dt = base + timedelta(minutes=arrivals[i])
+#         etd_dt = base + timedelta(minutes=departures[i])
+#         schedule.append({
+#             "node_id":          rn.node.node_id,
+#             "order_id":         rn.order_id,
+#             "type":             "pickup" if rn.is_pickup else "delivery",
+#             "district":         rn.node.district,
+#             "eta":              eta_dt.strftime("%H:%M"),
+#             "etd":              etd_dt.strftime("%H:%M"),
+#             "service_time_min": round(departures[i] - arrivals[i], 1),
+#         })
+#     return schedule
+
+
 def format_schedule(route: List[RouteNode],
                     arrivals: List[float],
                     departures: List[float],
-                    start_hhmm: str = "08:00") -> List[Dict]:
+                    start_hhmm: str = "08:00",
+                    start_date: str = None) -> List[Dict]:
     """
-    Convert relative-minute ETA/ETD to clock time strings.
+    Convert relative-minute ETA/ETD to clock time strings, including date.
 
     Args:
-        start_hhmm: Route start time e.g. "08:00"
-
-    Returns:
-        List of {node_id, type, district, eta, etd, service_time_min}
+        start_hhmm:  Route start time e.g. "08:00"
+        start_date:  Route start date e.g. "2026-04-27" (defaults to today)
     """
-    from datetime import datetime, timedelta
-    base = datetime.strptime(start_hhmm, "%H:%M")
+    from datetime import datetime, timedelta, date as date_cls
+    date_str = start_date or date_cls.today().isoformat()
+    base = datetime.strptime(f"{date_str} {start_hhmm}", "%Y-%m-%d %H:%M")
 
     schedule = []
     for i, rn in enumerate(route):
@@ -200,8 +260,15 @@ def format_schedule(route: List[RouteNode],
             "order_id":         rn.order_id,
             "type":             "pickup" if rn.is_pickup else "delivery",
             "district":         rn.node.district,
-            "eta":              eta_dt.strftime("%H:%M"),
-            "etd":              etd_dt.strftime("%H:%M"),
-            "service_time_min": round(departures[i] - arrivals[i], 1),
+            "eta":              eta_dt.strftime("%Y-%m-%d %H:%M"),
+            "etd":              etd_dt.strftime("%Y-%m-%d %H:%M"),
+            # "service_time_min": round(departures[i] - arrivals[i], 1),
+            # "service_time_min": round(rn.service_time, 1),
+            "service_time_min": round(rn.node.unloading_time if not rn.is_pickup
+                          else (rn.node.packaging_time + rn.node.loading_time), 1),
+            "wait_time_min":    round(max(0.0, departures[i] - arrivals[i] - (
+                          rn.node.unloading_time if not rn.is_pickup
+                          else (rn.node.packaging_time + rn.node.loading_time)
+                      )), 1),
         })
     return schedule

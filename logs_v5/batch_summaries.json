@@ -1,0 +1,642 @@
+[
+  {
+    "batch": 1,
+    "avg_reward": 9.2721,
+    "avg_improvement": 91.06,
+    "avg_violations": 1.88,
+    "elapsed_min": 6.3,
+    "episodes": 204
+  },
+  {
+    "batch": 2,
+    "avg_reward": 8.0976,
+    "avg_improvement": 91.2,
+    "avg_violations": 2.09,
+    "elapsed_min": 6.3,
+    "episodes": 205
+  },
+  {
+    "batch": 3,
+    "avg_reward": 8.8988,
+    "avg_improvement": 91.52,
+    "avg_violations": 1.8,
+    "elapsed_min": 7.2,
+    "episodes": 205
+  },
+  {
+    "batch": 4,
+    "avg_reward": 8.8758,
+    "avg_improvement": 91.11,
+    "avg_violations": 1.94,
+    "elapsed_min": 7.7,
+    "episodes": 205
+  },
+  {
+    "batch": 5,
+    "avg_reward": 7.7367,
+    "avg_improvement": 90.41,
+    "avg_violations": 1.94,
+    "elapsed_min": 5.2,
+    "episodes": 205
+  },
+  {
+    "batch": 6,
+    "avg_reward": 7.8873,
+    "avg_improvement": 91.83,
+    "avg_violations": 2.2,
+    "elapsed_min": 5.3,
+    "episodes": 204
+  },
+  {
+    "batch": 7,
+    "avg_reward": 7.8841,
+    "avg_improvement": 92.07,
+    "avg_violations": 1.74,
+    "elapsed_min": 5.7,
+    "episodes": 205
+  },
+  {
+    "batch": 8,
+    "avg_reward": 8.7653,
+    "avg_improvement": 89.8,
+    "avg_violations": 1.9,
+    "elapsed_min": 6.6,
+    "episodes": 205
+  },
+  {
+    "batch": 9,
+    "avg_reward": 8.0885,
+    "avg_improvement": 89.88,
+    "avg_violations": 1.6,
+    "elapsed_min": 5.0,
+    "episodes": 205
+  },
+  {
+    "batch": 10,
+    "avg_reward": 8.8062,
+    "avg_improvement": 90.39,
+    "avg_violations": 2.28,
+    "elapsed_min": 5.1,
+    "episodes": 205
+  },
+  {
+    "batch": 11,
+    "avg_reward": 8.6191,
+    "avg_improvement": 92.23,
+    "avg_violations": 2.43,
+    "elapsed_min": 5.5,
+    "episodes": 204
+  },
+  {
+    "batch": 12,
+    "avg_reward": 7.9681,
+    "avg_improvement": 88.53,
+    "avg_violations": 1.56,
+    "elapsed_min": 5.5,
+    "episodes": 205
+  },
+  {
+    "batch": 13,
+    "avg_reward": 8.3311,
+    "avg_improvement": 90.83,
+    "avg_violations": 1.85,
+    "elapsed_min": 6.0,
+    "episodes": 205
+  },
+  {
+    "batch": 14,
+    "avg_reward": 8.3682,
+    "avg_improvement": 91.56,
+    "avg_violations": 2.04,
+    "elapsed_min": 5.7,
+    "episodes": 205
+  },
+  {
+    "batch": 15,
+    "avg_reward": 7.6877,
+    "avg_improvement": 88.84,
+    "avg_violations": 2.02,
+    "elapsed_min": 6.0,
+    "episodes": 205
+  },
+  {
+    "batch": 16,
+    "avg_reward": 8.5798,
+    "avg_improvement": 91.19,
+    "avg_violations": 1.73,
+    "elapsed_min": 5.2,
+    "episodes": 204
+  },
+  {
+    "batch": 17,
+    "avg_reward": 9.3417,
+    "avg_improvement": 91.35,
+    "avg_violations": 1.84,
+    "elapsed_min": 7.9,
+    "episodes": 205
+  },
+  {
+    "batch": 18,
+    "avg_reward": 8.7126,
+    "avg_improvement": 92.16,
+    "avg_violations": 2.18,
+    "elapsed_min": 5.8,
+    "episodes": 205
+  },
+  {
+    "batch": 19,
+    "avg_reward": 8.3911,
+    "avg_improvement": 90.98,
+    "avg_violations": 1.76,
+    "elapsed_min": 5.3,
+    "episodes": 205
+  },
+  {
+    "batch": 20,
+    "avg_reward": 6.6898,
+    "avg_improvement": 90.12,
+    "avg_violations": 2.06,
+    "elapsed_min": 6.4,
+    "episodes": 205
+  },
+  {
+    "batch": 21,
+    "avg_reward": 8.8949,
+    "avg_improvement": 90.76,
+    "avg_violations": 2.03,
+    "elapsed_min": 5.3,
+    "episodes": 204
+  },
+  {
+    "batch": 22,
+    "avg_reward": 8.9977,
+    "avg_improvement": 92.02,
+    "avg_violations": 2.21,
+    "elapsed_min": 6.0,
+    "episodes": 205
+  },
+  {
+    "batch": 23,
+    "avg_reward": 8.4332,
+    "avg_improvement": 91.47,
+    "avg_violations": 1.94,
+    "elapsed_min": 5.9,
+    "episodes": 205
+  },
+  {
+    "batch": 24,
+    "avg_reward": 8.4999,
+    "avg_improvement": 92.25,
+    "avg_violations": 1.95,
+    "elapsed_min": 5.9,
+    "episodes": 205
+  },
+  {
+    "batch": 25,
+    "avg_reward": 9.1882,
+    "avg_improvement": 91.59,
+    "avg_violations": 1.92,
+    "elapsed_min": 7.6,
+    "episodes": 205
+  },
+  {
+    "batch": 26,
+    "avg_reward": 7.8123,
+    "avg_improvement": 91.15,
+    "avg_violations": 1.89,
+    "elapsed_min": 6.0,
+    "episodes": 204
+  },
+  {
+    "batch": 27,
+    "avg_reward": 7.8496,
+    "avg_improvement": 90.54,
+    "avg_violations": 1.69,
+    "elapsed_min": 5.7,
+    "episodes": 205
+  },
+  {
+    "batch": 28,
+    "avg_reward": 8.3679,
+    "avg_improvement": 90.45,
+    "avg_violations": 1.4,
+    "elapsed_min": 5.8,
+    "episodes": 205
+  },
+  {
+    "batch": 29,
+    "avg_reward": 8.8582,
+    "avg_improvement": 91.26,
+    "avg_violations": 1.89,
+    "elapsed_min": 6.8,
+    "episodes": 205
+  },
+  {
+    "batch": 30,
+    "avg_reward": 9.0209,
+    "avg_improvement": 90.4,
+    "avg_violations": 1.59,
+    "elapsed_min": 6.7,
+    "episodes": 205
+  },
+  {
+    "batch": 31,
+    "avg_reward": 8.5523,
+    "avg_improvement": 90.33,
+    "avg_violations": 2.16,
+    "elapsed_min": 6.8,
+    "episodes": 204
+  },
+  {
+    "batch": 32,
+    "avg_reward": 8.6464,
+    "avg_improvement": 91.94,
+    "avg_violations": 1.97,
+    "elapsed_min": 6.0,
+    "episodes": 205
+  },
+  {
+    "batch": 33,
+    "avg_reward": 8.8314,
+    "avg_improvement": 91.48,
+    "avg_violations": 1.99,
+    "elapsed_min": 5.9,
+    "episodes": 205
+  },
+  {
+    "batch": 34,
+    "avg_reward": 8.1219,
+    "avg_improvement": 92.89,
+    "avg_violations": 2.27,
+    "elapsed_min": 5.7,
+    "episodes": 205
+  },
+  {
+    "batch": 35,
+    "avg_reward": 7.8766,
+    "avg_improvement": 89.69,
+    "avg_violations": 1.7,
+    "elapsed_min": 5.4,
+    "episodes": 205
+  },
+  {
+    "batch": 36,
+    "avg_reward": 8.8118,
+    "avg_improvement": 91.88,
+    "avg_violations": 1.96,
+    "elapsed_min": 6.0,
+    "episodes": 204
+  },
+  {
+    "batch": 37,
+    "avg_reward": 8.1873,
+    "avg_improvement": 90.75,
+    "avg_violations": 2.02,
+    "elapsed_min": 6.1,
+    "episodes": 205
+  },
+  {
+    "batch": 38,
+    "avg_reward": 9.2328,
+    "avg_improvement": 89.92,
+    "avg_violations": 2.07,
+    "elapsed_min": 6.9,
+    "episodes": 205
+  },
+  {
+    "batch": 39,
+    "avg_reward": 9.028,
+    "avg_improvement": 92.02,
+    "avg_violations": 1.75,
+    "elapsed_min": 6.7,
+    "episodes": 205
+  },
+  {
+    "batch": 40,
+    "avg_reward": 8.7331,
+    "avg_improvement": 90.47,
+    "avg_violations": 2.05,
+    "elapsed_min": 6.7,
+    "episodes": 205
+  },
+  {
+    "batch": 41,
+    "avg_reward": 9.0209,
+    "avg_improvement": 91.44,
+    "avg_violations": 2.08,
+    "elapsed_min": 7.4,
+    "episodes": 204
+  },
+  {
+    "batch": 42,
+    "avg_reward": 9.1442,
+    "avg_improvement": 91.19,
+    "avg_violations": 1.82,
+    "elapsed_min": 8.6,
+    "episodes": 205
+  },
+  {
+    "batch": 43,
+    "avg_reward": 9.2412,
+    "avg_improvement": 91.36,
+    "avg_violations": 1.79,
+    "elapsed_min": 6.9,
+    "episodes": 205
+  },
+  {
+    "batch": 44,
+    "avg_reward": 8.7303,
+    "avg_improvement": 90.76,
+    "avg_violations": 1.49,
+    "elapsed_min": 6.6,
+    "episodes": 205
+  },
+  {
+    "batch": 45,
+    "avg_reward": 8.4237,
+    "avg_improvement": 89.84,
+    "avg_violations": 1.79,
+    "elapsed_min": 6.7,
+    "episodes": 205
+  },
+  {
+    "batch": 46,
+    "avg_reward": 8.406,
+    "avg_improvement": 89.83,
+    "avg_violations": 2.11,
+    "elapsed_min": 6.0,
+    "episodes": 204
+  },
+  {
+    "batch": 47,
+    "avg_reward": 8.7082,
+    "avg_improvement": 89.94,
+    "avg_violations": 1.98,
+    "elapsed_min": 6.1,
+    "episodes": 205
+  },
+  {
+    "batch": 48,
+    "avg_reward": 8.0884,
+    "avg_improvement": 91.64,
+    "avg_violations": 2.35,
+    "elapsed_min": 7.4,
+    "episodes": 205
+  },
+  {
+    "batch": 49,
+    "avg_reward": 9.2226,
+    "avg_improvement": 90.93,
+    "avg_violations": 1.45,
+    "elapsed_min": 6.7,
+    "episodes": 205
+  },
+  {
+    "batch": 50,
+    "avg_reward": 7.0165,
+    "avg_improvement": 89.75,
+    "avg_violations": 1.5,
+    "elapsed_min": 6.7,
+    "episodes": 205
+  },
+  {
+    "batch": 51,
+    "avg_reward": 8.6429,
+    "avg_improvement": 92.02,
+    "avg_violations": 1.81,
+    "elapsed_min": 10.9,
+    "episodes": 204
+  },
+  {
+    "batch": 52,
+    "avg_reward": 9.5356,
+    "avg_improvement": 93.11,
+    "avg_violations": 2.04,
+    "elapsed_min": 7.1,
+    "episodes": 205
+  },
+  {
+    "batch": 53,
+    "avg_reward": 8.0099,
+    "avg_improvement": 90.41,
+    "avg_violations": 1.75,
+    "elapsed_min": 6.4,
+    "episodes": 205
+  },
+  {
+    "batch": 54,
+    "avg_reward": 9.1763,
+    "avg_improvement": 91.62,
+    "avg_violations": 2.19,
+    "elapsed_min": 6.7,
+    "episodes": 205
+  },
+  {
+    "batch": 55,
+    "avg_reward": 7.7548,
+    "avg_improvement": 91.3,
+    "avg_violations": 1.95,
+    "elapsed_min": 6.8,
+    "episodes": 205
+  },
+  {
+    "batch": 56,
+    "avg_reward": 8.8934,
+    "avg_improvement": 91.24,
+    "avg_violations": 1.73,
+    "elapsed_min": 7.0,
+    "episodes": 204
+  },
+  {
+    "batch": 57,
+    "avg_reward": 7.9344,
+    "avg_improvement": 89.31,
+    "avg_violations": 2.22,
+    "elapsed_min": 6.0,
+    "episodes": 205
+  },
+  {
+    "batch": 58,
+    "avg_reward": 8.6331,
+    "avg_improvement": 91.59,
+    "avg_violations": 1.71,
+    "elapsed_min": 6.1,
+    "episodes": 205
+  },
+  {
+    "batch": 59,
+    "avg_reward": 7.5533,
+    "avg_improvement": 88.52,
+    "avg_violations": 1.7,
+    "elapsed_min": 6.4,
+    "episodes": 205
+  },
+  {
+    "batch": 60,
+    "avg_reward": 9.4301,
+    "avg_improvement": 92.12,
+    "avg_violations": 2.2,
+    "elapsed_min": 6.5,
+    "episodes": 205
+  },
+  {
+    "batch": 61,
+    "avg_reward": 8.6041,
+    "avg_improvement": 90.72,
+    "avg_violations": 1.85,
+    "elapsed_min": 7.6,
+    "episodes": 204
+  },
+  {
+    "batch": 62,
+    "avg_reward": 7.5879,
+    "avg_improvement": 89.65,
+    "avg_violations": 1.9,
+    "elapsed_min": 6.8,
+    "episodes": 205
+  },
+  {
+    "batch": 63,
+    "avg_reward": 9.3287,
+    "avg_improvement": 90.58,
+    "avg_violations": 2.1,
+    "elapsed_min": 6.3,
+    "episodes": 205
+  },
+  {
+    "batch": 64,
+    "avg_reward": 8.5414,
+    "avg_improvement": 90.89,
+    "avg_violations": 2.3,
+    "elapsed_min": 6.6,
+    "episodes": 205
+  },
+  {
+    "batch": 65,
+    "avg_reward": 9.3114,
+    "avg_improvement": 91.53,
+    "avg_violations": 1.74,
+    "elapsed_min": 6.3,
+    "episodes": 205
+  },
+  {
+    "batch": 66,
+    "avg_reward": 8.1922,
+    "avg_improvement": 92.81,
+    "avg_violations": 2.09,
+    "elapsed_min": 6.9,
+    "episodes": 204
+  },
+  {
+    "batch": 67,
+    "avg_reward": 7.6909,
+    "avg_improvement": 90.53,
+    "avg_violations": 2.06,
+    "elapsed_min": 8.8,
+    "episodes": 205
+  },
+  {
+    "batch": 68,
+    "avg_reward": 7.5683,
+    "avg_improvement": 90.04,
+    "avg_violations": 1.71,
+    "elapsed_min": 7.4,
+    "episodes": 205
+  },
+  {
+    "batch": 69,
+    "avg_reward": 7.3873,
+    "avg_improvement": 89.39,
+    "avg_violations": 1.94,
+    "elapsed_min": 8.0,
+    "episodes": 205
+  },
+  {
+    "batch": 70,
+    "avg_reward": 9.5368,
+    "avg_improvement": 91.98,
+    "avg_violations": 2.43,
+    "elapsed_min": 8.4,
+    "episodes": 205
+  },
+  {
+    "batch": 71,
+    "avg_reward": 8.3241,
+    "avg_improvement": 90.67,
+    "avg_violations": 1.73,
+    "elapsed_min": 11.2,
+    "episodes": 204
+  },
+  {
+    "batch": 72,
+    "avg_reward": 8.9565,
+    "avg_improvement": 92.58,
+    "avg_violations": 1.62,
+    "elapsed_min": 23.1,
+    "episodes": 205
+  },
+  {
+    "batch": 73,
+    "avg_reward": 9.3599,
+    "avg_improvement": 90.77,
+    "avg_violations": 1.71,
+    "elapsed_min": 16.4,
+    "episodes": 205
+  },
+  {
+    "batch": 74,
+    "avg_reward": 8.5159,
+    "avg_improvement": 91.31,
+    "avg_violations": 2.09,
+    "elapsed_min": 12.5,
+    "episodes": 205
+  },
+  {
+    "batch": 75,
+    "avg_reward": 7.7959,
+    "avg_improvement": 90.03,
+    "avg_violations": 1.55,
+    "elapsed_min": 13.5,
+    "episodes": 205
+  },
+  {
+    "batch": 76,
+    "avg_reward": 8.4976,
+    "avg_improvement": 90.26,
+    "avg_violations": 1.79,
+    "elapsed_min": 12.0,
+    "episodes": 204
+  },
+  {
+    "batch": 77,
+    "avg_reward": 8.3621,
+    "avg_improvement": 89.7,
+    "avg_violations": 1.9,
+    "elapsed_min": 11.7,
+    "episodes": 205
+  },
+  {
+    "batch": 78,
+    "avg_reward": 7.5689,
+    "avg_improvement": 91.21,
+    "avg_violations": 1.71,
+    "elapsed_min": 7.6,
+    "episodes": 205
+  },
+  {
+    "batch": 79,
+    "avg_reward": 9.7604,
+    "avg_improvement": 92.27,
+    "avg_violations": 1.78,
+    "elapsed_min": 6.9,
+    "episodes": 205
+  },
+  {
+    "batch": 80,
+    "avg_reward": 9.4251,
+    "avg_improvement": 92.39,
+    "avg_violations": 1.66,
+    "elapsed_min": 7.2,
+    "episodes": 205
+  }
+]
