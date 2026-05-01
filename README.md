@@ -185,7 +185,13 @@ Payment milestones: **33.3%** released at pickup confirmation · **66.7%** at de
 - Deadline violations reduced from **1.95 → 1.88** (meaningful given 25× lateness penalty weight)
 - At N=25 orders, PPO-ALNS produces **fewer deadline violations** than random-operator greedy baseline (19.30 vs 20.29)
 
-![PPO-ALNS Batch Training Summary](src/outputs/batch_summary.png)
+![PPO-ALNS Batch Training Summary](outputs/batch_summary.png)
+
+### Benchmark: PPO vs Greedy
+
+![Average Cost by Order Size](outputs/ppo_vs_greedy_cost.png.jpeg)
+
+![Deadline Violations by Order Size](outputs/ppo_vs_greedy_violations.png.jpeg)
 
 ### End-to-End Simulation (3 runs × 5 drivers)
 
